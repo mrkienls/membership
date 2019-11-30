@@ -1,5 +1,14 @@
 "# membership" 
 https://gist.github.com/Haosvit/bc64d8b83ea684b510063f45bd99111b
+neu khi day len bi loi
+fatal: Authentication failed for 'https://github.com/mrkienls/membership.git/'
+
+E:\PYTHON\CODE>git push -u origin master
+Username for 'https://github.com': mrkienls
+Password for 'https://mrkienls@github.com':
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Thi day len tu dong lenh, no se hoi user, pass
 
 I.  Giới thiệu Git:
     * Tóm tắt:

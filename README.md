@@ -1,4 +1,6 @@
 "# membership" 
+https://gist.github.com/Haosvit/bc64d8b83ea684b510063f45bd99111b
+
 I.  Giới thiệu Git:
     * Tóm tắt:
       - Git dùng để quản lý phiên bản code, rất thuận lợi trong làm việc nhóm thậm chí làm 1 mình.

@@ -1,3 +1,4 @@
+import stripe
 from django.conf import settings
 from django.db import models
 from django.db.models.signals import post_save
@@ -48,7 +49,9 @@ def post_save_usermembership_create(sender, instance, created, *args, **kwargs):
         user_membership.save()
 
 
-post_save.connect(post_save_usermembership_create, sender=settings.AUTH_USER_MODEL)
+post_save.connect(post_save_usermembership_create,
+                  sender=settings.AUTH_USER_MODEL)
+
 
 class Subscription(models.Model):
     user_membership = models.ForeignKey(
